@@ -1,9 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Counter from "./Counter";
 
 export default function Home() {
   return (
     <div className={styles.page}>
+      <Counter />
       <main className={styles.main}>
         <li>Save and see your changes instantly.</li>
         <li>こんにちは</li>
