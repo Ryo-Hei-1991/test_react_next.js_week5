@@ -1,9 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Counter from "./Counter";
 
 export default function Home() {
   return (
     <div className={styles.page}>
+      <Counter />
       <main className={styles.main}>
         <Image
           className={styles.logo}
@@ -18,6 +20,7 @@ export default function Home() {
             To get started, edit the{" "}
             <code className={styles.code}>page.js</code> file.
           </h1>
+          <li>こんにちは</li>
           <p>
             Looking for a starting point or more instructions? Head over to{" "}
             <a
