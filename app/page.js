@@ -5,6 +5,8 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
+        <li>Save and see your changes instantly.</li>
+        <li>こんにちは</li>
         <Image
           className={styles.logo}
           src="/next.svg"
